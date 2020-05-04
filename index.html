@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver5 Flipbook</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>LOGO GOES HERE</h1>
+        </div>
+
+
+        <nav>
+            <!--<ul>
+               
+                <li>ORTHOGRAPHIST </li>
+                <li>YOUR AWESOME - - - ></li>
+            </ul>-->
+            <div class="navigation">
+                <!--<h2>Navigation goes here....</h2>-->
+                <ul>
+                    <li class="navigation__myEducation"><button class="btn"
+                            onclick="$('#education').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});"> My
+                            Education</button></li>
+                    <li class="navigation__myBackground"><button class="btn"
+                            onclick="$('#background').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">My
+                            Background</button> </li>
+                    <li class="navigation__servicesOffered"><button class="btn"
+                            onclick="$('#last-paragraph').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">
+                            MY Services </button></li>
+
+                </ul>
+
+            </div>
+
+
+        </nav>
+
+        <!--First Shelf-->
+
+        <div class="books_container">
+
+
+            <div class="books_item" id="flipbook1">
+                <!--<div class="hard"> Turn.js </div>
+            <div class="hard"></div>-->
+
+
+                <div style="background-image:url(book1/01.jpg);"></div>
+                <div style="background-image:url(book1/02.jpg);"></div>
+                <div style="background-image:url(book1/03.jpg);"></div>
+                <div style="background-image:url(book1/04.jpg);"></div>
+                <div style="background-image:url(book1/05.jpg);"></div>
+                <div style="background-image:url(book1/06.jpg);"></div>
+                <div style="background-image:url(book1/06.jpg);">
+                    <a href="https://online.fliphtml5.com/jpirb/fooh/#p=1" target="_blank">
+                        <img src="chair-clean-clinic-dental-care-287237.jpg" alt="IMG">
+                    </a>
+                </div>
+                <!--
+            <div class="hard"></div>-->
+            </div>
+
+
+
+            <a>
+                <div class="books_item" id="flipbook2">
+                    <div style="background-image:url(book2/7.jpg);"></div>
+                    <div style="background-image:url(book2/8.jpg);"></div>
+                    <div style="background-image:url(book2/9.jpg);"></div>
+                    <div style="background-image:url(book2/10.jpg);"></div>
+
+                </div>
+            </a>
+            <a>
+                <div class="books_item" id="flipbook3">
+                    <div style="background-image:url(book3/11.jpg);"></div>
+                    <div style="background-image:url(book3/12.jpg);"></div>
+                    <div style="background-image:url(book3/13.jpg);"></div>
+                    <div style="background-image:url(book3/14.jpg);"></div>
+
+                </div>
+
+            </a>
+
+
+        </div>
+        <div class="shelf">
+            <span class="flipbook_shelf-left"></span>
+            <span class="flipbook_shelf-center"></span>
+            <span class="flipbook_shelf-right"></span>
+        </div>
+
+        <!--Second Shelf-->
+        <div class="books_container2">
+            <div id="flipbook4">
+                <div style="background-image:url(Book4/1.png);"></div>
+                <div style="background-image:url(Book4/2.jpg);"></div>
+                <div style="background-image:url(Book4/3.jpg);"></div>
+                <div style="background-image:url(Book4/4.jpg);"></div>
+                <div style="background-image:url(Book4/5.png);"></div>
+                <div style="background-image:url(Book4/6.jpg);"></div>
+
+
+
+            </div>
+
+            <div id="flipbook5">
+                <div style="background-image:url(combatron/1.jpg);"></div>
+                <div style="background-image:url(combatron/2.jpg);"></div>
+                <div style="background-image:url(combatron/3.jpg);"></div>
+                <div style="background-image:url(combatron/4.jpg);"></div>
+                <div style="background-image:url(combatron/5.jpg);"></div>
+                <div style="background-image:url(combatron/6.jpg);"></div>
+                <div style="background-image:url(combatron/7.jpg);"></div>
+                <div style="background-image:url(combatron/8.jpg);"></div>
+                <div style="background-image:url(combatron/9.jpg);"></div>
+                <div style="background-image:url(combatron/10.jpg);"></div>
+                <div style="background-image:url(combatron/11.jpg);"></div>
+                <div style="background-image:url(combatron/13.jpg);"></div>
+                <div style="background-image:url(combatron/14.jpg);"></div>
+                <div style="background-image:url(combatron/15.jpg);"></div>
+                <div style="background-image:url(combatron/16.jpg);"></div>
+
+            </div>
+
+
+        </div>
+        <div class="shelf_2">
+            <span class="flipbook_shelf-left--2"></span>
+            <span class="flipbook_shelf-center--2"></span>
+            <span class="flipbook_shelf-right--2"></span>
+        </div>
+
+    </div>
+<main>
+    <section class="section-about">
+        <br>
+        <div class="about" id="#_about">
+            <div class="about__desc">
+                <!--<hr class="hr__top--1"> <hr class="hr__top--2">-->
+                <h2><span class="line-1"></span>About<span class="line-2"></span></h2>
+                <!--<hr class="hr__bottom--1"><hr class="hr__bottom--2">-->
+            </div>
+
+
+            <div class="card__container--1" id="education">
+                <div class="about__card--1">
+                    <!-- <img class="about__card--img1" src="chairCLinic.jpg" alt="clinic Chair">-->
+                </div>
+                <div class="about__text--1">
+                    <h3>MY EDUCATION</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Consequuntur laboriosam sunt laudantium accusamus nobis blanditiis
+                        fuga, repellat distinctio minus ea, necessitatibus ipsam
+                        ex consectetur ducimus praesentium at adipisci reiciendis accusantium?</p>
+                </div>
+            </div>
+
+            <div class="card__container--2" id="background">
+
+                <div class="about__text--2">
+                    <h3>MY BACKGROUND</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Consequuntur laboriosam sunt laudantium accusamus nobis blanditiis
+                        fuga, repellat distinctio minus ea, necessitatibus ipsam
+                        ex consectetur ducimus praesentium at adipisci reiciendis accusantium?</p>
+                </div>
+                <div class="about__card--2">
+                    <!--<img class="about__card--img2" src="chairCLinic.jpg" alt="clinic Chair">-->
+                </div>
+            </div>
+
+            <div class="card__container--3" id="last-paragraph">
+                <div class="about__card--3">
+                    <!-- <img class="about__card--img3" src="chair-clean2.jpg" alt="clinic Chair">-->
+                </div>
+                <div class="about__text--3">
+                    <h3>SERVICES OFFERED</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Consequuntur laboriosam sunt laudantium accusamus nobis blanditiis
+                        fuga, repellat distinctio minus ea, necessitatibus ipsam
+                        ex consectetur ducimus praesentium at adipisci reiciendis accusantium?</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <section class="graphic-design">
+        <h2 class="graphic__header">GRAPHIC DESIGN SKILLS</h2>
+        <div class="gimp__container">
+        <div class="card-gimp">
+            <img class="card-gimp--img1" src="cid.png" alt="">
+        </div>
+        <div class="card-gimp">
+            <img class="card-gimp--img2" src="missb4photopencil.jpg" alt="">
+        </div>
+        <div class="card-gimp">
+            <img class="card-gimp--img3" src="red6photopencil.jpg" alt="">
+        </div>
+    </div>
+    </section>
+
+
+</main>
+
+
+
+    <section class="section-footer">
+      
+        <div class="footer__container">
+            <div class="footer__copyright">
+                <h2 class="h2_footer"> &#169;Rodrigo Bonzerr S. Lopez</h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="text">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam, ratione sequi, nobis a 
+                    ipsa alias provident, placeat nostrum laudantium consequuntur 
+                    reprehenderit harum aperiam! Reiciendis aperiam repellendus nam possimus porro?
+                    </div>
+                    <br>
+
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam, ratione sequi, nobis a 
+                    ipsa alias provident, placeat nostrum laudantium consequuntur 
+                    reprehenderit harum aperiam! Reiciendis aperiam repellendus nam possimus porro?
+                    </div>
+                    </div>
+                </div>
+        
+                <div class="col-1-of-3">
+                   <div class="text2">
+                       <div>
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quisquam autem quae provident corporis minus. Dolor reiciendis quod at. Reprehenderit veniam atque 
+                       iure, hic provident impedit et nobis perspiciatis qui.
+                   </div>
+                   <br>
+                   <div>
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eaque quasi aspernatur nemo sint quis alias provident totam illo incidunt veniam fugit minima,
+                        accusamus vel enim? Neque iusto incidunt voluptates?
+                   </div>
+                </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="composition">
+                        <img src="facebook.svg" class="composition__img composition__img--1" alt="Photo1">
+                        <img src="twitter.svg" class="composition__img composition__img--2" alt="Photo2">
+                        <img src="instagram.svg" class="composition__img composition__img--3" alt="Photo3">
+                    </div>
+                </div>
+        
+            </div>
+            
+<!--
+            <div class="icons-container">
+                <div class="icon--1"><a class="footer_link" href="#" target="_blank"><img class="footer__img--1"
+                            src="facebook.svg" alt="fbIcon"></a></div>
+                <div class="icon--2"><a class="footer_link" href="#" target="_blank"><img class="footer__img--2"
+                            src="twitter.svg" alt="twitterIcon"></a></div>
+                <div class="icon--3"><a class="footer_link" href="#" target="_blank"><img class="footer__img--3"
+                            src="instagram.svg" alt="instagramIcon"></a></div>
+            </div>
+
+-->
+
+
+
+            <div class="freepik">Icons made by <a href="https://www.flaticon.com/authors/freepik"
+                    title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
+                    title="Flaticon">www.flaticon.com</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Bootstrap test
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+-->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="turn.js"></script>
+    <script type="text/javascript">
+        $('#flipbook1').turn({ gradients: true, acceleration: true });
+        $('#flipbook2').turn({ gradients: true, acceleration: true });
+        $('#flipbook3').turn({ gradients: true, acceleration: true });
+        $('#flipbook4').turn({ gradients: true, acceleration: true });
+        $('#flipbook5').turn({ gradients: true, acceleration: true });
+
+    </script>
+    <script src="animatescroll.js-master/jquery-1.8.3.min.js"></script>
+    <script src="animatescroll.js-master/animatescroll.js"></script>
+    <!--
+    
+ 
+    -->
+
+
+</body>
+
+</html>
